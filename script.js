@@ -5,7 +5,7 @@ let start_price = kms * 0.21;
 console.log(`The standard price for a train ticket for a distance of ${kms}km is ${start_price}`)
 
 let price;
-let discount;
+let discount = 0;
 
 if (age < 18) {
     discount = 0.2
