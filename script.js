@@ -12,9 +12,7 @@ if (age < 18) {
 } else if (age > 65) {
     discount = 0.4 
 }
-else {
-    discount = 0
-}
+
 
 price = (start_price - (start_price * discount)).toFixed(2)
 console.log(`The price of your ticket is: € ${price}`)
